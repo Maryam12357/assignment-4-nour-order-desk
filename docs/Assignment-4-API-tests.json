@@ -1,0 +1,83 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Assignment 4 - API Tests",
+    "collectionId": "a859d575-658a-4970-a0bb-7391ceccb4ff",
+    "dateExported": "2026-10-29T12:15:10.539Z",
+    "version": "1.4",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "c05052c4-75a6-4ada-9c4a-76a4f2687570",
+            "colId": "a859d575-658a-4970-a0bb-7391ceccb4ff",
+            "containerId": "",
+            "name": "GET - List All Orders",
+            "url": "http://localhost:3000/api/orders",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2026-10-29T12:02:38.242Z",
+            "modified": "2026-10-29T12:02:38.242Z",
+            "headers": []
+        },
+        {
+            "_id": "cc755347-d6ac-4fcb-992e-d4b74c41a8ad",
+            "colId": "a859d575-658a-4970-a0bb-7391ceccb4ff",
+            "containerId": "",
+            "name": "POST - Create Order",
+            "url": "http://localhost:3000/api/orders",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2026-10-29T12:04:26.434Z",
+            "modified": "2026-10-29T12:04:26.434Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": [
+                    "\r",
+                    "{\r",
+                    "  \"customerName\": \"Test Customer\",\r",
+                    "  \"phone\": \"03000000\",\r",
+                    "  \"productName\": \"Vanilla Candle\",\r",
+                    "  \"quantity\": 3,\r",
+                    "  \"unitPrice\": 8\r",
+                    "}\r",
+                    ""
+                ],
+                "form": []
+            }
+        },
+        {
+            "_id": "1640e475-ff67-4419-84ad-dd4f6f2cbce4",
+            "colId": "a859d575-658a-4970-a0bb-7391ceccb4ff",
+            "containerId": "",
+            "name": "PATCH - Update Order",
+            "url": "http://localhost:3000/api/orders/65adac73-f64d-46df-bcbf-cdbf325c6a5d",
+            "method": "PATCH",
+            "sortNum": 30000,
+            "created": "2026-10-29T12:05:32.882Z",
+            "modified": "2026-10-29T12:05:32.882Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": [
+                    "{",
+                    "  \"quantity\":5",
+                    "}"
+                ],
+                "form": []
+            }
+        },
+        {
+            "_id": "4b131d6e-1c29-41c7-8cfd-98de16523ea4",
+            "colId": "a859d575-658a-4970-a0bb-7391ceccb4ff",
+            "containerId": "",
+            "name": "DELETE - Delete Order",
+            "url": "http://localhost:3000/api/orders/36cfd21b-9cac-4333-bc48-5cd3d20df290",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2026-10-29T12:06:59.438Z",
+            "modified": "2026-10-29T12:06:59.438Z",
+            "headers": []
+        }
+    ],
+    "ref": "AmdQ_ItpbjO8awEw4sFn5_TwMgZZ8M8UF09Md3zEELWqo8ntus8kHfYeMmn0WjNsytD88eHqoK_AehB_goU1Ww"
+}
